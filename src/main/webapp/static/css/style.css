@@ -1,0 +1,19 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+hr {
+	margin-top: 15px;
+	margin-bottom:15px;
+	border: 2px solid black;
+}
+
+.prod {
+    max-width: fit-content;
+    max-height: 295px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}

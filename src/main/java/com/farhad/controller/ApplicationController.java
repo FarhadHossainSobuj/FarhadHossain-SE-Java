@@ -27,6 +27,10 @@ public class ApplicationController {
 	public String welcome() {
 		return "welcome";
 	}
+	@RequestMapping("/")
+	public String index() {
+		return "welcome";
+	}
 	
 	@RequestMapping("/login")
 	public String login(HttpServletRequest req) {
